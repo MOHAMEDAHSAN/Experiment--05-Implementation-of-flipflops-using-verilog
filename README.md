@@ -172,4 +172,5 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 ![T_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/042509c6-e9dd-4508-a095-c9a8c221c210)
 
 
-### RESULTS 
+### RESULT:
+Thus, the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
