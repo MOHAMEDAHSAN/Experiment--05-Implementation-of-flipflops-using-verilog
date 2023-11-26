@@ -3,7 +3,7 @@
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
-SR Flip-Flop
+#### SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -102,39 +102,71 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+1. Create a New Project :
+   
+Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
 
+2. Create a New Design File :
+   
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+
+3. Write the Combinational Logic Code :
+   
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+
+4. Compile the Project :
+   
+To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+
+5. Analyze and Fix Errors :
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram.
+
+6. Verification :
+    
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
 
+#### SR FLIP FLOP
+![SR_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/246f3fe6-b803-4a1e-81f2-d4d7770a3d27)
 
+#### D FLIP FLOP
+![D_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/91398c50-e60d-4b3b-b776-c170b5ea8c51)
 
+#### JK FLIP FLOP
+![JK_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/eb726ad3-2882-4bae-a70a-96ff58005469)
 
+#### T FLIP FLOP
+![T_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/34b64b93-3a23-454e-9d49-6cf8500a3dca)
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
+#### SR FLIP FLOP
+![SR_RTL](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/9d798169-0cb2-41fa-ba33-d6b1523e52cd)
 
+#### D FLIP FLOP
+![D_RTL](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/e2418060-0f9e-4e22-bc54-6dca34915042)
 
+#### JK FLIP FLOP
+![JK_RTL](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/1a3c88ec-4c31-4282-97e8-0bff0fcdc9e4)
 
-
-
-
-
+#### T FLIP FLOP
+![T_RTL](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/0e85601c-78fa-4293-8e72-0d2461507674)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+#### SR FLIP FLOP
+![SR_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/31357747-d40e-4dcb-85c3-68ed84883315)
 
+#### D FLIP FLOP
+![D_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/f1953a10-c9fc-44e2-8181-2fc576784a8f)
 
+#### JK FLIP FLOP
+![JK_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/8bba900a-cfd8-41c5-aa35-910559809d03)
 
-
-
-
+#### T FLIP FLOP
+![T_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/042509c6-e9dd-4508-a095-c9a8c221c210)
 
 
 ### RESULTS 
