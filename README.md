@@ -2,7 +2,7 @@
 ## AIM: 
 To implement all the flipflops using verilog and validating their functionality using their functional tables
 ## EQUIPMENT REQUIRED:
-### HARDWARE REQUIRED – PC, Cyclone II , USB flasher
+### HARDWARE REQUIRED - PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED - Quartus prime
 ## THEORY :
 #### SR Flip-Flop
@@ -103,7 +103,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure :
+## Procedure :
 1. Create a New Project :
    
 Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -128,7 +128,7 @@ If there are any errors or warnings during the compilation process, Quartus will
 Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 
-### PROGRAM :
+## PROGRAM :
 
 #### SR FLIP FLOP
 ![SR_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/246f3fe6-b803-4a1e-81f2-d4d7770a3d27)
@@ -172,5 +172,5 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 ![T_TIMING](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/042509c6-e9dd-4508-a095-c9a8c221c210)
 
 
-### RESULT:
+## RESULT:
 Thus, the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
