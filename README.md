@@ -1,8 +1,10 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
-### THEORY 
+## AIM: 
+To implement all the flipflops using verilog and validating their functionality using their functional tables
+## EQUIPMENT REQUIRED:
+### HARDWARE REQUIRED – PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED - Quartus prime
+### THEORY :
 #### SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
@@ -101,7 +103,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
+### Procedure :
 1. Create a New Project :
    
 Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -126,7 +128,7 @@ If there are any errors or warnings during the compilation process, Quartus will
 Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 
-### PROGRAM 
+### PROGRAM :
 
 #### SR FLIP FLOP
 ![SR_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/246f3fe6-b803-4a1e-81f2-d4d7770a3d27)
@@ -140,6 +142,7 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 #### T FLIP FLOP
 ![T_CODE](https://github.com/MOHAMEDAHSAN/Experiment--05-Implementation-of-flipflops-using-verilog/assets/139331378/34b64b93-3a23-454e-9d49-6cf8500a3dca)
 
+## OUTPUT :
 
 ### RTL LOGIC FOR FLIPFLOPS 
 #### SR FLIP FLOP
